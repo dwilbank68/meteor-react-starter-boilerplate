@@ -11,3 +11,11 @@
     //      all users indescriminately
     // 2 -  so database can't be manipulated from the client
             except by method calls
+            
+### Testing
+            
+    // Terminal
+    meteor add practicalmeteor:mocha
+    
+    // run tests
+    meteor test

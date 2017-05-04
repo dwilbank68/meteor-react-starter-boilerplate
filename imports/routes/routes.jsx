@@ -4,10 +4,9 @@ import {Router, Route, browserHistory} from 'react-router';
 
 import LogIn from       '../ui/LogIn';
 import SignUp from      '../ui/SignUp';
-import Dashboard from        '../ui/Dashboard';
+import Dashboard from   '../ui/Dashboard';
 import NotFound from    '../ui/NotFound';
 
-window.b = browserHistory;
 const unauthPages = ['/','/signup'];
 const authPages =   ['/dashboard'];
 
